@@ -206,6 +206,14 @@ header .logo span {
   width: calc((100% - 3 * 24px) / 4);
 }
 
+.benefits-list-item .link {
+  display: flex;
+  height: 112px;
+  background-color: #f4f4fd;
+  justify-content: center;
+  align-items: center;
+}
+
 .benefits-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -273,6 +281,15 @@ header .logo span {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
+}
+
+.team-lable .social-list {
+  justify-content: space-evenly;
+}
+
+.team-lable .social-link:hover {
+  background-color: #404bbf;
 }
 
 /* ========== PORTFOLIO ============= */
@@ -331,6 +348,14 @@ header .logo span {
   padding-bottom: 100px;
 }
 
+.foot .container {
+  display: flex;
+}
+
+.logo-block {
+  margin-right: 120px;
+}
+
 .foot .logo {
   margin-bottom: 16px;
 }
@@ -350,13 +375,32 @@ footer .logo span {
 .foot-navigation {
 }
 
+.foot-nav-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
 .social-list {
+  display: flex;
+  gap: 16px;
 }
 
-.social-item {
+.social-link {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: #4d5ae5;
 }
 
-.icon {
+.foot-navigation .social-link:hover {
+  background-color: #31d0aa;
 }
 
 .social-link-item {
