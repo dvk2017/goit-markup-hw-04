@@ -118,7 +118,11 @@ header .logo span {
   color: #404bbf;
 }
 
-.header-menu-link:active::after {
+.header-menu-item:first-child .header-menu-link {
+  color: #404bbf;
+}
+
+.header-menu-item:first-child .header-menu-link::after {
   content: "";
   display: block;
   border-radius: 2px;
@@ -463,7 +467,8 @@ footer .logo span {
   fill: #f4f4fd;
 }
 
-.foot-navigation .social-link:hover {
+.social-media .social-link:hover,
+.social-media .social-link:focus {
   background-color: #31d0aa;
 }
 
